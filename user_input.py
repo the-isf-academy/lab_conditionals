@@ -14,6 +14,14 @@ for i in range(3):
             
     elif drawing == "circle":
         circle(size)
+    
+    elif drawing == "triangle":
+        right(60)
+        forward(size)
+        right(120)
+        forward(size)
+        right(120)
+        forward(size)
 
     else:
         print("Sorry, I don't know how to draw that...")
